@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   keycloak:
   - apiVersion: v1
-    appVersion: 11.0.2
-    created: "2021-02-05T10:38:10.401402593Z"
+    appVersion: 12.0.4
+    created: "2021-07-12T00:56:22.651317153Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
-      version: 9.1.1
+      version: 10.3.13
     description: Open Source Identity and Access Management For Modern Applications and Services
-    digest: bfa2df99995707e6d1c312f2e13d6600b3b49cf57f6f87c5b9d9c1ec3fbc7f26
+    digest: 37a323945494991370c24a9db5118ffddfca81aa3f562f0d794a2b91d0bbe050
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
     keywords:
@@ -31,14 +31,14 @@ entries:
     - https://github.com/jboss-dockerfiles/keycloak
     - https://github.com/bitnami/charts/tree/master/bitnami/postgresql
     urls:
-    - https://github.com/strixBE/helm-charts/releases/download/keycloak-9.9.2/keycloak-9.9.2.tgz
-    version: 9.9.2
+    - https://github.com/strixBE/helm-charts/releases/download/keycloak-11.0.1/keycloak-11.0.1.tgz
+    version: 11.0.1
   mailhog:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: v1.0.1
-    created: "2021-02-05T10:38:10.506133449Z"
+    created: "2021-07-12T00:56:22.777416548Z"
     description: An e-mail testing tool for developers
-    digest: 42d97d57e531c31316e737c04f0c8ed62ff4d19f4b9e11ea939e6d7af6c472bb
+    digest: e2f66178cde57d0114acebc0aa2c62696435e711ddaf304a530df66ec386c317
     home: http://iankent.uk/project/mailhog/
     icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
     keywords:
@@ -54,7 +54,8 @@ entries:
     name: mailhog
     sources:
     - https://github.com/mailhog/MailHog
+    type: application
     urls:
-    - https://github.com/strixBE/helm-charts/releases/download/mailhog-3.4.0/mailhog-3.4.0.tgz
-    version: 3.4.0
-generated: "2021-02-05T10:38:10.293450264Z"
+    - https://github.com/strixBE/helm-charts/releases/download/mailhog-4.1.0/mailhog-4.1.0.tgz
+    version: 4.1.0
+generated: "2021-07-12T00:56:22.4359437Z"
